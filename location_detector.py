@@ -18,8 +18,6 @@ def twitter_api(username, bearer_token):
     """
     base_url = "https://api.twitter.com/"
 
-#     bearer_token = 'AAAAAAAAAAAAAAAAAAAAADQPNAEAAAAA6du3%2BUc7ar3Jo4k58Hci0\
-# ppycks%3DKZGTOe97mEBgTeM9mAqAtqqiFn99qLwZ5p0UxO784psV9TzgBE'
     search_url = f'{base_url}1.1/friends/list.json'
 
     search_headers = {
