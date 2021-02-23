@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8af3a1b6d1b74db8b196f2c0e60cf4cd {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_8af3a1b6d1b74db8b196f2c0e60cf4cd" ></div>
+        
+</body>
+<script>    
+    
+            var map_8af3a1b6d1b74db8b196f2c0e60cf4cd = L.map(
+                "map_8af3a1b6d1b74db8b196f2c0e60cf4cd",
+                {
+                    center: [0, 0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 1,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c294117014274c6ebdbbcce5cb6914cb = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_8af3a1b6d1b74db8b196f2c0e60cf4cd);
+        
+    
+            var feature_group_ab89d51d3336490aa50974797a6307a2 = L.featureGroup(
+                {}
+            ).addTo(map_8af3a1b6d1b74db8b196f2c0e60cf4cd);
+        
+    
+            var marker_afddc5ab3f884c33a7d0a7d62bfd2884 = L.marker(
+                [40.7127281, -74.0060152],
+                {}
+            ).addTo(feature_group_ab89d51d3336490aa50974797a6307a2);
+        
+    
+            var icon_3bf22ffbde2a445fa9c16e2385ab7929 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_afddc5ab3f884c33a7d0a7d62bfd2884.setIcon(icon_3bf22ffbde2a445fa9c16e2385ab7929);
+        
+    
+        var popup_262f6d8e947848838ea11f7349960f20 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dbd5cc49529f4aadad2d84d7855b28c8 = $(`<div id="html_dbd5cc49529f4aadad2d84d7855b28c8" style="width: 100.0%; height: 100.0%;">Bill Clinton, New York, NY</div>`)[0];
+            popup_262f6d8e947848838ea11f7349960f20.setContent(html_dbd5cc49529f4aadad2d84d7855b28c8);
+        
+
+        marker_afddc5ab3f884c33a7d0a7d62bfd2884.bindPopup(popup_262f6d8e947848838ea11f7349960f20)
+        ;
+
+        
+    
+    
+            var marker_a674602291fb45cc8b7a5f7432655472 = L.marker(
+                [36.7014631, -118.755997],
+                {}
+            ).addTo(feature_group_ab89d51d3336490aa50974797a6307a2);
+        
+    
+            var icon_9ee35fcd32f94d73a20db2a2d4bef705 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a674602291fb45cc8b7a5f7432655472.setIcon(icon_9ee35fcd32f94d73a20db2a2d4bef705);
+        
+    
+        var popup_cd9f206c9ea948a1875d558667984bda = L.popup({"maxWidth": "100%"});
+
+        
+            var html_077135453003440fbedf3e43f8816906 = $(`<div id="html_077135453003440fbedf3e43f8816906" style="width: 100.0%; height: 100.0%;">Kamala Harris, California</div>`)[0];
+            popup_cd9f206c9ea948a1875d558667984bda.setContent(html_077135453003440fbedf3e43f8816906);
+        
+
+        marker_a674602291fb45cc8b7a5f7432655472.bindPopup(popup_cd9f206c9ea948a1875d558667984bda)
+        ;
+
+        
+    
+    
+            var marker_3de36da803234d5ea2f5a36d02b5244b = L.marker(
+                [38.89503679999999, -77.0365427],
+                {}
+            ).addTo(feature_group_ab89d51d3336490aa50974797a6307a2);
+        
+    
+            var icon_bdc1d4d92a324070be3dab0ae815b2ea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3de36da803234d5ea2f5a36d02b5244b.setIcon(icon_bdc1d4d92a324070be3dab0ae815b2ea);
+        
+    
+        var popup_b9665d7edfe043e38c3bab91b5cb20eb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_262ac41df15042ad8043fcbb87863651 = $(`<div id="html_262ac41df15042ad8043fcbb87863651" style="width: 100.0%; height: 100.0%;">Ms. Turnage Young, Washington, DC</div>`)[0];
+            popup_b9665d7edfe043e38c3bab91b5cb20eb.setContent(html_262ac41df15042ad8043fcbb87863651);
+        
+
+        marker_3de36da803234d5ea2f5a36d02b5244b.bindPopup(popup_b9665d7edfe043e38c3bab91b5cb20eb)
+        ;
+
+        
+    
+    
+            var marker_cbce6655e9ea43f59312b77e2b7b6f17 = L.marker(
+                [40.7127281, -74.0060152],
+                {}
+            ).addTo(feature_group_ab89d51d3336490aa50974797a6307a2);
+        
+    
+            var icon_391c2972867640b3bdab7e1c64d26153 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_cbce6655e9ea43f59312b77e2b7b6f17.setIcon(icon_391c2972867640b3bdab7e1c64d26153);
+        
+    
+        var popup_239c41395e804ec59fa1f6b5ee41ebc7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_491d3916ac5c4d4bae7e032cc8b984ad = $(`<div id="html_491d3916ac5c4d4bae7e032cc8b984ad" style="width: 100.0%; height: 100.0%;">Jen Friedman, New York, USA</div>`)[0];
+            popup_239c41395e804ec59fa1f6b5ee41ebc7.setContent(html_491d3916ac5c4d4bae7e032cc8b984ad);
+        
+
+        marker_cbce6655e9ea43f59312b77e2b7b6f17.bindPopup(popup_239c41395e804ec59fa1f6b5ee41ebc7)
+        ;
+
+        
+    
+    
+            var marker_3fb25c10e614447bbb3c335ef80dd170 = L.marker(
+                [40.734185700000005, -74.00558000000001],
+                {}
+            ).addTo(feature_group_ab89d51d3336490aa50974797a6307a2);
+        
+    
+            var icon_4333d56ac4594c249cc50bf5b905349b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3fb25c10e614447bbb3c335ef80dd170.setIcon(icon_4333d56ac4594c249cc50bf5b905349b);
+        
+    
+        var popup_d4aabe772e244bbba447d399538da3bc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6f38556c18a6455084f056637df23aa5 = $(`<div id="html_6f38556c18a6455084f056637df23aa5" style="width: 100.0%; height: 100.0%;">Cody Keenan, West Village, Manhattan</div>`)[0];
+            popup_d4aabe772e244bbba447d399538da3bc.setContent(html_6f38556c18a6455084f056637df23aa5);
+        
+
+        marker_3fb25c10e614447bbb3c335ef80dd170.bindPopup(popup_d4aabe772e244bbba447d399538da3bc)
+        ;
+
+        
+    
+</script>

@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+
+{% block content %}
+    <div class="content-section">
+        <form method="POST" action="">
+            <legend class="border-bottom mb-3">Find friends</legend>
+                <form method="POST">
+                    <input type="text" id="nickname" class="form-control w-75" name="username" placeholder="username"><br>
+                    <input type="text" id="key-1" class="form-control w-75" name="key" placeholder="token"><br>
+                    <input type="submit" class="btn btn-secondary mb-3" value="Generate map">
+                </form>
+        </form>
+    </div>
+
+{% endblock content %}
